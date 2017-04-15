@@ -1,0 +1,23 @@
+/*css重置*/
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    /*下划线*/
+}
+img{
+    border: 0;
+}
+li{
+    /*列表的点和数字*/
+    list-style: none;
+}
+/*重置结束*/
+.wrapper{
+    width: 1140px;
+    height: 100%;
+    /*background: #cccccc;*/
+    margin: 0 auto;
+}
