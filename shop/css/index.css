@@ -73,6 +73,7 @@ div.float#cart{
 }#slist{
     float: left;
     text-align: center;
+    border-bottom: 1px solid #cccccc;
  }
  #slist a{
 
@@ -80,7 +81,6 @@ div.float#cart{
  }
  #slist>li{
      width: 228px;
-     text-decoration: underline;
      float: left;
  }
 #main-header p{
@@ -184,6 +184,8 @@ div.float#cart{
 .problem-menu li{
     list-style: disc;
     color: #ffffff;
+    margin-top: 2px;
+    margin-left: 2px;
 }
 .problem-menu li a{
     color: #ffffff;
