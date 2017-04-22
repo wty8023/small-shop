@@ -4,6 +4,7 @@
 }
 #login-container{
     margin-top: 30px;
+    height: 640px;
 }
 #login-container form{
     width: 570px;
@@ -25,20 +26,76 @@
     text-indent: 10px;
     font-size: 20px;
 }
-#login-container input[value="login"]{
+#login-container input[value="Login"]{
     width: 114px;
     height: 41px;
     background: #ef8743;
     color: #ffffff;
+}
+#login-container .btn{
     font-size: 20px;
     border: 0;
     border-radius: 10px;
     /*border-radius css3属性 边框圆角 有兼容性问题*/
     margin-top: 20px;
     cursor: pointer;
+
 }
-#login-container input[value="login"]:hover{
+#login-container input[value="Login"]:hover{
     background: white;
     color: #000000;
     border: 1px solid ;
 }
+#forget{
+    color: #5d5959;
+    text-decoration: underline;
+    margin-top: 20px;
+    display: block;
+}
+#register{
+    width: 540px;
+    float: right;
+}
+#register h3{
+    color: #ef8743;
+}
+#register p{
+    color: #999;
+    margin:20px 0;
+}
+#register .btn{
+    width: 106px;
+    height: 42px;
+    background: #ffffff;
+    border: 1px solid #000000;
+}
+#register .btn:hover{
+    background: #ef8743;
+    border-color: #ef8743;
+    color: #ffffff;
+}
+
+/*footer开始*/
+#footer{
+    height: 82px;
+    background: #fa558f;
+    line-height: 82px;
+}
+#footer h3,#footer h4{
+    color: white;
+}
+#footer h3{
+    color: white;
+    float: left;
+}
+#footer h3 a{
+    font-weight: 900;
+    color: white;
+}
+#footer h4{
+    color: white;
+    float: right;
+}
+/*footer结束*/
+
+
