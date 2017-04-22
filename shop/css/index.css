@@ -84,12 +84,10 @@ div.float#cart{
      float: left;
  }
 #main-header p{
-    color: #ffffff;
-    height: 50px;
-    position: relative;
-    left: 190px;
+    color: #fff;
+    position: absolute;
+    right: 500px;
     top: 35px;
-    cursor: pointer;
 }
 /*header的结束**/
 
