@@ -1,0 +1,93 @@
+#header{
+    background: url(../img/banner33.jpg) no-repeat ;
+    height: 250px;
+}
+/*brand开始*/
+.remen{
+    width: 1140px;
+    height: 316px;
+}
+#brand h1{
+    margin-top:20px;
+    margin-bottom: 10px;
+}
+#brand a{
+    float: left;
+    height: 99px;
+    width: 119px;
+    margin-right:23px;
+    margin-bottom: 20px;
+}
+#brand img{
+    width: 120px;
+}
+/*brand结束*/
+
+/*good开始*/
+#good{
+    height: 1000px;
+}
+.good-info{
+    width: 340px;
+    height: 440px;
+    border: 1px solid #cccccc;
+    float: left;
+    margin-top: 30px;
+    margin-right: 38px;
+}
+.good-info img{
+    width: 248px;
+    height: 248px;
+    border: 1px solid #cccccc;
+    vertical-align: bottom;
+}
+.good-detail{
+    padding: 10px;
+    background: #cccccc;
+    height: 170px;
+}
+.good-info .new{
+    background: #fa558f;
+    color: #ffffff;
+    float: right;
+}
+.good-detail input{
+    width: 150px;
+    height: 50px;
+    outline: none;
+    text-indent: 10px;
+}
+.add{
+    width: 150px;
+    height: 50px;
+    background: orange;
+    color: #ffffff;
+    border: 0;
+    margin-top: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
+/*good结束*/
+
+/*footer开始*/
+#footer{
+    height: 82px;
+    background: #fa558f;
+    line-height: 82px;
+}
+#footer h3,#footer h4{
+    color: white;
+}
+#footer h3{
+    color: white;
+    float: left;
+}
+#footer h3 a{
+    font-weight: 900;
+    color: white;
+}
+#footer h4{
+    color: white;
+    float: right;
+}
+/*footer结束*/

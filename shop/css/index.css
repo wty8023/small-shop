@@ -67,6 +67,8 @@ div.float#cart{
     background: #ffffff;
     margin-left: -190px;
     display: none;
+    position: relative;
+    z-index: 1;
 }
 #makeup:hover #submenu{
     display: block;
@@ -139,6 +141,7 @@ div.float#cart{
     width: 248px;
     height: 248px;
     border: 1px solid #cccccc;
+    vertical-align: bottom;
 }
 .product-info .new{
     background: #fa558f;
@@ -146,10 +149,14 @@ div.float#cart{
     float: right;
 }
 .product-detail{
-    margin: 10px;
+    /*margin-left: 10px;*/
+    padding: 10px;
+    background: #cccccc;
+    height: 170px;
+    /*width: 340px;*/
 }
 .product-detail h3{
-    margin-top: 10px;
+    /*margin-top: 10px;*/
 }
 .product-detail input{
     width: 150px;
