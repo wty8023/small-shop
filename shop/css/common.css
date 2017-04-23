@@ -21,11 +21,13 @@ li{
     /*background: #cccccc;*/
     margin: 0 auto;
 }
-
+.float{
+    float: left;
+}
 /*header的开始*/
 #header{
-    background: url(../img/banner.jpg) no-repeat center;
-    height: 600px;
+    background: url(../img/banner33.jpg) no-repeat ;
+    height: 250px;
 }
 #login a:hover{
     text-decoration: underline;
@@ -115,3 +117,26 @@ div.float#cart{
     right: 500px;
     top: 35px;
 }
+
+/*footer开始*/
+#footer{
+    height: 82px;
+    background: #fa558f;
+    line-height: 82px;
+}
+#footer h3,#footer h4{
+    color: white;
+}
+#footer h3{
+    color: white;
+    float: left;
+}
+#footer h3 a{
+    font-weight: 900;
+    color: white;
+}
+#footer h4{
+    color: white;
+    float: right;
+}
+/*footer结束*/

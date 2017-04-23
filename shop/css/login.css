@@ -75,27 +75,6 @@
     color: #ffffff;
 }
 
-/*footer¿ªÊ¼*/
-#footer{
-    height: 82px;
-    background: #fa558f;
-    line-height: 82px;
-}
-#footer h3,#footer h4{
-    color: white;
-}
-#footer h3{
-    color: white;
-    float: left;
-}
-#footer h3 a{
-    font-weight: 900;
-    color: white;
-}
-#footer h4{
-    color: white;
-    float: right;
-}
-/*footer½áÊø*/
+
 
 
