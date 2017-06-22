@@ -6,6 +6,7 @@
     width: 494px;
     height: 567px;
     overflow: hidden;
+    position: relative;
 }
 #single-pic .big-pic{
     padding: 6px;
@@ -19,6 +20,7 @@
     width: 800px;
     height: 133px;
     margin-top: 10px;
+    position: relative;
 }
 #single-pic .small-pic img{
     width: 150px;
@@ -115,6 +117,26 @@
 }
 #dependence h4:hover{
     color: #ff530d;
+}
+#single-pic img.selected{
+    border: 1px solid #000000;
+}
+#left{
+    left: 10px;
+}
+#right{
+    right: 10px;
+}
+#single-pic .arrow{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    background: #000000;
+    color: #FFF;
+    text-align: center;
+    cursor: pointer;
+    top: 200px;
+    position: absolute;
 }
 
 

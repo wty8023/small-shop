@@ -53,6 +53,7 @@ div.float#cart{
     margin-top: 25px;
     line-height: 30px;
     float: right;
+    background: #000 url(../img/cart.png) 230px center no-repeat;
 }
 #header img{
     vertical-align: bottom;
