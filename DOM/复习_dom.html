@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+</head>
+<body>
+<div id="div1">
+    <div id="div2">
+        <div id="div3">div3</div>
+        <h1 id="h1">hhh</h1>
+        <p>ppp</p>
+    </div>
+</div>
+    <script>
+        var oDiv1 = document.getElementById("div11");
+        var oH1 = document.getElementById("h1");
+        /**
+         * 找到该元素的所有元素节点的方法
+         *
+         * */
+        function siblings(elem){
+            var arr = [];
+            var elements = elem.parentNode.children;
+            for(var i=0; i<elements.length; i++){
+                if(elements[i] != elem){
+                    arr.push(elements[i]);
+                }
+            }
+
+            return arr;
+        }
+        console.log(siblings(oH1));
+        /**
+         * 删除自己
+         * */
+//        function remove(elem){
+//            elem.parentNode.removeChild(elem);
+//        }
+//        remove(oH1);
+        /**
+         * 前面插入
+         */
+        function before(elem. newNode){
+            elem.parentNode.insertBefore(newNode,elem)
+        }
+        /**
+         * 在给定的元素后面插入一个新元素
+         *
+         */
+        function after(elem, newnode){
+            if(elem.nextSibling){
+
+            }else{
+
+            }
+
+        }
+
+
+
+    </script>
+</body>
+</html>
